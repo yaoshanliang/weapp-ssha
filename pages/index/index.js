@@ -9,6 +9,10 @@ Page({
       {
         id: 'video',
         name: '宣传片',
+      },
+      {
+        id: 'contact',
+        name: '联系我们',
       }
     ]
   }
