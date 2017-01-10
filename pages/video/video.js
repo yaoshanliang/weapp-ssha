@@ -10,15 +10,13 @@ function getRandomColor () {
 }
 
 Page({
-    data:{
-    src: "http://www.jsssha.com/wp-content/uploads/2016/11/%E6%8C%82%E7%89%8C.mp4"  
-  },
   onReady: function (res) {
     this.videoContext = wx.createVideoContext('myVideo')
   },
   inputValue: '',
-    data: {
-        src: '',
+  data: {
+    title: '宣传片',
+    src: 'http://www.jsssha.com/wp-content/uploads/2016/11/%E6%8C%82%E7%89%8C.mp4',
     danmuList: [
       {
         text: '盛世华安好棒',

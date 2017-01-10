@@ -1,12 +1,12 @@
 <!--pages/video/video.wxml-->
 <view class="page">
   <view class="page__hd">
-    <text class="page__title">宣传片</text>
+    <text class="page__title">{{title}}</text>
     <text class="page__desc"></text>
   </view>
   <view class="page__bd">
     <view class="section tc">
-    <video id="myVideo" src="http://www.jsssha.com/wp-content/uploads/2016/11/%E6%8C%82%E7%89%8C.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
     <view class="btn-area">
         <input bindblur="bindInputBlur"/>
         <button bindtap="bindSendDanmu">发送弹幕</button>
