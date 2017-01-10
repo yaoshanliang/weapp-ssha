@@ -8,7 +8,7 @@
         <view class="widgets">
             <block wx:for-items="{{list}}">
               <view class="widgets__item">
-                  <navigator url="/pages/{{logs}}/{{page}}" class="widget">
+                  <navigator url="/pages/{{item.id}}/{{item.id}}" class="widget">
                     <text class="widget__name">{{item.name}}</text>
                   </navigator>
                 </view>
