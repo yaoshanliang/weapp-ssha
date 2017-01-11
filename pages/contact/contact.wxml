@@ -1,7 +1,4 @@
 <view class="page">
-  <view class="page__hd">
-    <text class="page__title">{{title}}</text>
-  </view>
   <view class="page__bd">
     <view class="section section_gap">
       <map
@@ -12,11 +9,13 @@
         scale="{{scale}}"
         >
       </map>
-      <text>股票：838280
+      <view class="contact">
+        <text>股票：838280
         电话：0512-58161723
         传真：0512-58161711
         地址：江苏省苏州市张家港市滨河路2号 
             华东国际大厦5F</text>
+      </view>
     </view>
   </view>
 </view>

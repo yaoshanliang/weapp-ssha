@@ -1,0 +1,13 @@
+<import src="../../utils/wxParse/wxParse.wxml"/> 
+<view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+<view>
+<block wx:for-items="{{news}}">
+<navigator url="/pages/news/news-details?id={{item.id}}">
+<view bindtap="widgetsToggle">
+<text>{{item.title}}</text>
+</view>
+</navigator>
+</block>
+</view>

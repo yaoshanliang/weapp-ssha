@@ -1,14 +1,46 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
+    "pages/news/news",
+    "pages/news/news-details",
     "pages/introduction/introduction",
+    "pages/product/product",
     "pages/video/video",
     "pages/contact/contact"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "盛世华安",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#576b95",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_selected.png",
+      "text": "公司盛况"
+    }, {
+      "pagePath": "pages/product/product",
+      "iconPath": "images/product.png",
+      "selectedIconPath": "images/product_selected.png",
+      "text": "产品服务"
+    }, {
+      "pagePath": "pages/contact/contact",
+      "iconPath": "images/contact.png",
+      "selectedIconPath": "images/contact_selected.png",
+      "text": "联系我们"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
