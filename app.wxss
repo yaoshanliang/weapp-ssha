@@ -265,6 +265,7 @@ page{
     height: 180rpx;
 }
 .news-item-pic {
+    padding-top: 10rpx;
     width: 160rpx;
     height: 160rpx;
     float: left;
@@ -274,8 +275,9 @@ page{
 }
 .news-item-words {
     width: 480rpx;
-    height: 180rpx;
+    height: 160rpx;
     float: right;
+    overflow-y: hidden;
 }
 .news-item-title {
     font-size: 13px;
