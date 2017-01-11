@@ -6,9 +6,9 @@
   </view>
   <view class="page__bd">
     <view class="section tc">
-    <video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <video class="video" id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
     <view class="btn-area">
-        <input bindblur="bindInputBlur"/>
+        <input class="video-input" bindblur="bindInputBlur"/>
         <button bindtap="bindSendDanmu">发送弹幕</button>
     </view>
     </view>

@@ -290,6 +290,15 @@ page{
     font-size: 14px;
     padding-left: -26rpx important;
 }
+.news-details-content {
+    padding: 0 40rpx 100rpx 40rpx;
+}
+.video {
+    padding: 0 40rpx 0 40rpx;
+}
+.video-input {
+    border: 1px solid #CCCCCC;   
+}
 .contact {
     padding: 40rpx 40rpx 40rpx 40rpx;
 }

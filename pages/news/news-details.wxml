@@ -4,7 +4,7 @@
     <text class="page__title">{{title}}</text>
     <text class="page__desc"></text>
   </view>
-    <view class="wxParse">
+    <view class="news-details-content wxParse">
     <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
     </view>
 </view>
