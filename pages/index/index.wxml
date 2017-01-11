@@ -16,20 +16,23 @@
         <text class="news-title">新闻动态</text>
 
         <block wx:for="{{news}}">
-        <view class="news-item">
+        <navigator url="/pages/news/news-details?id={{item.id}}">
+        <view class="news-item line">
             <view class="news-item-pic">
                 <image mode="widthFix" src="{{item.pic}}" class="news-item-image" width="" height=""></image>
             </view>
             <view class="news-item-words">
-                <view><text class="news-item-title">{{item.title}}</text></view>
-                <view><text class="news-item-content">{{item.content}}</text></view>
+                <view class="news-item-title"><text>{{item.title}}</text></view>
+                <view class="news-item-content"><text>{{item.content}}</text></view>
             </view>
         </view>
+        </navigator>
         </block>
-
+    </view>
+    <view>
         <view class="widgets__list widgets__list_show">
             <navigator url="/pages/news/news" class="widget">
-                <text class="widget__name">查看更多</text>
+                <text class="news-more">查看更多</text>
                 <image class="widget__arrow" src="/images/arrowright.png" mode="aspectFill" />
                 <view class="widget__line widget__line_first"></view>
             </navigator>

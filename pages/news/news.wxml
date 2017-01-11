@@ -1,13 +1,18 @@
-<import src="../../utils/wxParse/wxParse.wxml"/> 
-<view class="wxParse">
-    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
-</view>
-<view>
-<block wx:for-items="{{news}}">
-<navigator url="/pages/news/news-details?id={{item.id}}">
-<view bindtap="widgetsToggle">
-<text>{{item.title}}</text>
-</view>
-</navigator>
-</block>
-</view>
+
+<view class="news">
+        <text class="news-title">新闻动态</text>
+
+        <block wx:for="{{news}}">
+        <navigator url="/pages/news/news-details?id={{item.id}}">
+        <view class="news-item line">
+            <view class="news-item-pic">
+                <image mode="widthFix" src="{{item.pic}}" class="news-item-image" width="" height=""></image>
+            </view>
+            <view class="news-item-words">
+                <view class="news-item-title"><text>{{item.title}}</text></view>
+                <view class="news-item-content"><text>{{item.content}}</text></view>
+            </view>
+        </view>
+        </navigator>
+        </block>
+    </view>

@@ -1,17 +1,37 @@
-<!--pages/introduction/introduction.wxml-->
-<view class="page">
-  <view class="page__hd">
-    <text class="page__title">{{title}}</text>
-    <text class="page__desc"></text>
-  </view>
-  <view class="page__bd page__bd_spacing">
-  <view class="weui-flex">
-    <view class="weui-flex__item">1111</view>
-    <view class="weui-flex__item">1111</view>
-  </view>
-    <view class="weui-flex">
-    <view class="weui-flex__item">1111</view>
-    <view class="weui-flex__item">1111</view>
-  </view>
-  </view>
-</view>
+
+<view class="news">
+        <text class="news-title">惠民通APP</text>
+
+        <block wx:for="{{products}}">
+        <navigator url="/pages/news/news-details?id={{item.id}}">
+        <view class="news-item line">
+            <view class="news-item-pic">
+                <image mode="widthFix" src="{{item.pic}}" class="news-item-image" width="" height=""></image>
+            </view>
+            <view class="news-item-words">
+                <view class="news-item-title"><text>{{item.title}}</text></view>
+                <view class="news-item-content"><text>{{item.content}}</text></view>
+            </view>
+        </view>
+        </navigator>
+        </block>
+    </view>
+
+
+<view class="news">
+        <text class="news-title">服务理念</text>
+
+        <block wx:for="{{services}}">
+        <navigator url="/pages/news/news-details?id={{item.id}}">
+        <view class="news-item line">
+            <view class="news-item-pic">
+                <image mode="widthFix" src="{{item.pic}}" class="news-item-image" width="" height=""></image>
+            </view>
+            <view class="news-item-words">
+                <view class="news-item-title"><text>{{item.title}}</text></view>
+                <view class="news-item-content"><text>{{item.content}}</text></view>
+            </view>
+        </view>
+        </navigator>
+        </block>
+    </view>
