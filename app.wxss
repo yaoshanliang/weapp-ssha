@@ -275,21 +275,28 @@ page{
 }
 .news-item-words {
     width: 480rpx;
-    height: 160rpx;
+    height: 148rpx;
     float: right;
     overflow-y: hidden;
 }
 .news-item-title {
-    font-size: 13px;
+    font-size: 11pt;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .news-item-content {
-    font-size: 11px;
-    line-height: 17pt;
+    font-size: 8pt;
+    line-height: 13pt;
     text-overflow:ellipsis; 
 }
 .news-more {
     color: #AAAAAA;
     font-size: 14px;
+    
+}
+.news-more-line {
     padding-left: -26rpx important;
 }
 .news-details-content {

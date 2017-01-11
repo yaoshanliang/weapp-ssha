@@ -30,5 +30,14 @@ Page({
         'content': '苏州东方金汇通智能科技有限公司是江苏盛世华安智能科技股份有限公司旗下一家专业从事智能化系统、计算机软硬件、电子产品研发的全资子公司',
       }
     ]
-  }
+  },
+  onShareAppMessage: function () {
+   // return custom share data when user share.
+   console.log('onShareAppMessage')
+   return {
+      title: '盛世华安',
+      desc: '小程序',
+      path: '/pages/index/index'
+    }
+  },
 });

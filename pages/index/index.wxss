@@ -65,6 +65,13 @@
     padding-left: 40rpx;
     padding-right: 40rpx;
 }
+.widget_more{
+    position: relative;
+    padding-top: 26rpx;
+    padding-bottom: 26rpx;
+    padding-left: 0rpx;
+    padding-right: 40rpx;
+}
 .widget__arrow{
     position: absolute;
     top: 28rpx;

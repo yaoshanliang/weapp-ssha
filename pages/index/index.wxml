@@ -28,10 +28,9 @@
         </view>
         </navigator>
         </block>
-    </view>
-    <view>
+
         <view class="widgets__list widgets__list_show">
-            <navigator url="/pages/news/news" class="widget">
+            <navigator url="/pages/news/news" class="widget_more">
                 <text class="news-more">查看更多</text>
                 <image class="widget__arrow" src="/images/arrowright.png" mode="aspectFill" />
                 <view class="widget__line widget__line_first"></view>
