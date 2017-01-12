@@ -262,24 +262,24 @@ page{
 }
 .news-item {
     margin: 10rpx 0 10rpx 0;
-    height: 180rpx;
+    
     background-color: #fff;
 }
 .news-item-pic {
-    padding: 10rpx 0 0 10rpx;
+    padding: 20rpx 0 10rpx 20rpx;
     width: 160rpx;
-    height: 160rpx;
+    
     float: left;
 }
 .news-item-image {
     width: 100%;
 }
 .news-item-words {
-    width: 470rpx;
-    height: 76px;
+    width: 450rpx;
+    height: 65px;
     float: right;
     overflow-y: hidden;
-    padding-right: 10rpx;
+    padding: 20rpx 10rpx;
 }
 .news-item-title {
     font-size: 11pt;

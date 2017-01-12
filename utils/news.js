@@ -162,7 +162,7 @@ newsdetails[15] = {
 newsdetails[100] = {
     'id': 100,
     'title': '惠民通APP',
-    'content':``
+    'content':`<img src="http://www.jsssha.com/wp-content/uploads/2017/01/hmt-app.jpeg">`
 };
 
 newsdetails[1000] = {
