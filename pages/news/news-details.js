@@ -8,8 +8,7 @@ Page({
   onLoad:function(options){
     var news = newsdetails.newsdetails;
     var that = this;
-    //WxParse.wxParse('title', 'html', newsdetails[options.id].title, that,5)
-    WxParse.wxParse('content', 'html', news[options.id].content, that, 5)
+    WxParse.wxParse('content', 'html', news[options.id].content, that, 25)
     that.setData({
         title: news[options.id].title
       })
