@@ -11,6 +11,6 @@
 ![](http://iat.net.cn/images/weapp-ssha-2.png)
 ## 安装
 
-    git clone https://github.com/yaoshanliang/ssha-miniprogram.git
+    git clone https://github.com/yaoshanliang/weapp-ssha.git
 
 
