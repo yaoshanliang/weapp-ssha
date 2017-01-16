@@ -7,6 +7,7 @@
  * 微信小程序搜索“**江苏盛世华安**”
 
  * 扫码访问
+ 
  ![](http://iat.net.cn/images/weapp-ssha-qrcode.jpg)
 
 ## 预览
