@@ -1,21 +1,10 @@
+<import src="../../utils/wxParse/wxParse.wxml"/> 
 <view class="page">
-  <view class="page__bd">
-    <view class="section section_gap">
-      <map
-        style="width: 100%; height: 300px;"
-        latitude="{{latitude}}"
-        longitude="{{longitude}}"
-        markers="{{markers}}"
-        scale="{{scale}}"
-        >
-      </map>
-      <view class="contact">
-        <text>股票：838280
-        电话：0512-58161723
-        传真：0512-58161711
-        地址：江苏省苏州市张家港市滨河路2号 
-            华东国际大厦5F</text>
-      </view>
-    </view>
+  <view class="page__hd">
+    <text class="page__title"></text>
+    <text class="page__desc"></text>
   </view>
+    <view class="news-details-content wxParse">
+    <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+    </view>
 </view>

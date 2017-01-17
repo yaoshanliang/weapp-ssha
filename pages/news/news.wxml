@@ -6,11 +6,11 @@
         <navigator url="/pages/news/news-details?id={{item.id}}">
         <view class="news-item line">
             <view class="news-item-pic">
-                <image mode="widthFix" src="{{item.pic}}" class="news-item-image" width="" height=""></image>
+                <image mode="widthFix" src="{{item.thumbnail}}" class="news-item-image" width="" height=""></image>
             </view>
             <view class="news-item-words">
-                <view class="news-item-title"><text>{{item.title}}</text></view>
-                <view class="news-item-content"><text>{{item.content}}</text></view>
+                <view class="news-item-title"><text>{{item.title_plain}}</text></view>
+                <view class="news-item-content"><text>{{item.excerpt_plain}}</text></view>
             </view>
         </view>
         </navigator>
