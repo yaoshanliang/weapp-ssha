@@ -3,9 +3,7 @@
     "pages/index/index",
     "pages/news/news",
     "pages/news/news-details",
-    "pages/introduction/introduction",
     "pages/product/product",
-    "pages/video/video",
     "pages/contact/contact"
   ],
   "window": {

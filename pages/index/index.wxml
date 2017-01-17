@@ -5,8 +5,8 @@
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
             <block wx:for="{{swipers}}">
                 <swiper-item>
-                    <navigator url="{{item.link}}" class="widget">
-                        <image mode="widthFix" src="{{item.pic}}" class="slide-image" width="" height=""></image>
+                    <navigator url="/pages/news/news-details?id={{item.id}}" class="widget">
+                        <image mode="widthFix" src="{{item.thumbnail_images.medium_large.url}}" class="slide-image" width="" height=""></image>
                     </navigator>
                 </swiper-item>
             </block>
@@ -19,18 +19,18 @@
         <navigator url="/pages/news/news-details?id={{item.id}}">
         <view class="news-item line">
             <view class="news-item-pic">
-                <image mode="widthFix" src="{{item.pic}}" class="news-item-image" width="" height=""></image>
+                <image mode="widthFix" src="{{item.thumbnail}}" class="news-item-image" width="" height=""></image>
             </view>
             <view class="news-item-words">
-                <view class="news-item-title"><text>{{item.title}}</text></view>
-                <view class="news-item-content"><text>{{item.content}}</text></view>
+                <view class="news-item-title"><text>{{item.title_plain}}</text></view>
+                <view class="news-item-content"><text>{{item.excerpt_plain}}</text></view>
             </view>
         </view>
         </navigator>
         </block>
 
         <view class="widgets__list widgets__list_show">
-            <navigator url="/pages/news/news" class="widget_more">
+            <navigator url="/pages/news/news?cat={{cat}}" class="widget_more">
                 <text class="news-more">查看更多</text>
                 <image class="widget__arrow" src="/images/arrowright.png" mode="aspectFill" />
                 <view class="widget__line widget__line_first"></view>

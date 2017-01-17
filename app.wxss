@@ -314,3 +314,6 @@ page{
 .contact {
     padding: 40rpx 40rpx 40rpx 40rpx;
 }
+image {
+    height: auto;
+}

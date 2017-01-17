@@ -20,9 +20,19 @@
 ## 安装
 
     git clone https://github.com/yaoshanliang/weapp-ssha.git
+    
+    // 静态页面
+    git checkout static
+    
+    // 动态页面
+    git checkout api
 
 ## 版本
 * v1
  * v1.0.0 第一版静态页面
  * v1.0.1 Fixed 弹幕移动至左侧无法消失的bug
+ * v1.0.2 删除无用的page文件夹
+
+* v2
+ * v2.0.0 第一版api获取数据展示
 
