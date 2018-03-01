@@ -15,6 +15,7 @@
 ## 预览
 ![](http://iat.net.cn/images/weapp-ssha-1.png)
 
+![](http://iat.net.cn/images/weapp-ssha-2.png)
 ---
 
 
