@@ -8,14 +8,14 @@
 
  * 扫码访问
  
-![](http://iat-net-cn.qiniudn.com/weapp-ssha.jpg)
+![](http://image.aiotv.cn/weapp-ssha.jpg)
 
-![](http://iat-net-cn.qiniudn.com/weapp-jlxh.jpg)
+![](http://image.aiotv.cn/weapp-jlxh.jpg)
 
 ## 预览
-![](http://iat.net.cn/images/weapp-ssha-1.png)
+![](http://image.aiotv.cn/weapp-ssha-1.png)
 
-![](http://iat.net.cn/images/weapp-ssha-2.png)
+![](http:/image.aiotv.cn/weapp-ssha-2.png)
 ---
 
 
