@@ -15,7 +15,7 @@
 ## 预览
 ![](http://image.aiotv.cn/weapp-ssha-1.png)
 
-![](http:/image.aiotv.cn/weapp-ssha-2.png)
+![](http://image.aiotv.cn/weapp-ssha-2.png)
 ---
 
 
